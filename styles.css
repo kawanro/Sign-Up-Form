@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+    
+
+}
+
+.containerleft{
+    display: flex;
+    background-image: url("../../images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+    
+}
+
+@font-face {
+    font-family: odin;
+    src: url(../../fonts/Norse-Bold.otf);
+}
+
+#logotext{
+    font-family: odin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top: 25%;
+    right: 35%;
+    opacity: 1;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    right:60%
+}
+
+
+.logobackground{
+    background-color: black;
+    opacity: 0.5;
+    height: 22%;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
