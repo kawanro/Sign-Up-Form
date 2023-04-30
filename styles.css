@@ -25,26 +25,37 @@
     font-family: odin, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     font-size: 5rem;
-    position: absolute;
-    top: 25%;
-    right: 35%;
-    opacity: 1;
+    position: relative;
+    top: 5px;
+
 }
 
 #logo{
     width: 100px;
     height: 100px;
+
+}
+
+#logocontainer{
+    display: flex;
+    flex-direction: row;
     position: absolute;
-    top: 25%;
-    right:60%
+    top: 30%;
+
 }
 
 
 .logobackground{
-    background-color: black;
-    opacity: 0.5;
-    height: 22%;
-    width: 100%;
+    background: black;
+    filter: alpha(opacity=60);
+    /* IE */
+    -moz-opacity: 0.6;
+    /* Mozilla */
+    opacity: 0.6;
+    /* CSS3 */
     position: absolute;
-    top: 20%;
+
+    height: 100%;
+    width: 40vw;
+    
 }
